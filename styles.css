@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background: url("images/bg-pattern-top.svg") left -100px top -400px no-repeat, url("images/bg-pattern-bottom.svg") right -100px bottom -500px no-repeat;
+  background: url("bg-pattern-top.svg") left -100px top -400px no-repeat, url("bg-pattern-bottom.svg") right -100px bottom -500px no-repeat;
   background-color: hsl(185, 75%, 39%);
   height: 100vh;
   display: flex;
@@ -20,7 +20,7 @@ body {
   box-shadow: 0 0 20px 3px hsl(227, 10%, 46%);
 }
 .top-container {
-  background-image: url(images/bg-pattern-card.svg);
+  background-image: url(bg-pattern-card.svg);
   height: 150px;
   border-radius: 15px 15px 0 0;
   text-align: center;
