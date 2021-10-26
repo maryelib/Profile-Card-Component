@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("images/bg-pattern-top.svg") left -100px top -400px no-repeat, url("images/bg-pattern-bottom.svg") right -100px bottom -500px no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  font-family: 'Kumbh Sans', sans-serif;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 3px hsl(227, 10%, 46%);
+}
+.top-container {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.middle-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #e0e0e0;
+}
+.image-victor {
+  width: 100px;
+  margin-top: 90px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: thick;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.name, .numbers {
+  font-weight: 700;
+  font-size: 18px;
+}
+.age, .city {
+  font-weight: 400;
+  margin: 5px;
+  padding-bottom: 30px;
+  color: hsl(227, 10%, 46%);
+}
+.stats {
+font-weight: 400;
+font-size: 10px;
+letter-spacing: 0.1em;
+color: hsl(227, 10%, 46%);
+
+}
+/*Thank you Frontend Mentor*/
+.attribution {
+font-family: 'Kumbh Sans', sans-serif;
+font-size: 10px;
+color: #dbe3e5;
+text-align: center;
+}
+.attribution a {
+  color: #dbe3e5;
+  text-decoration: none;
+}
